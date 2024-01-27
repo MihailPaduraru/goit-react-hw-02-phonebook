@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from './ContactForm.module.css';
 
 class ContactForm extends React.Component {
   render() {
     const { onSubmit, onChange, name, number } = this.props;
 
     return (
-      <form onSubmit={onSubmit}>
+      <form className = {styles.form} onSubmit={onSubmit}>
         <label>
           Name:
           <input

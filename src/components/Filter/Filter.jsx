@@ -7,7 +7,8 @@ class Filter extends React.Component {
     return (
       <label>
         Search contacts:
-        <input type="text" name="filter" value={value} onChange={onChange} />
+        <input type="text" 
+        name="filter" value={value} onChange={onChange} />
       </label>
     );
   }
